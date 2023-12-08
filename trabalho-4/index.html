@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LETRIX</title>
+</head>
+
+<body>
+    <div id="game-container" class="hidden">
+        <div id="loading-screen">
+            <div id="loading-bar"></div>
+            <p id="loading-timer"></p>
+        </div>
+        <div id="game-screen" class="hidden">
+            <h1>LETRIX</h1>
+            <p id="score">Score: 0</p>
+            <p id="game-timer"></p>
+            <p id="sequence-display" class="random-sequence"></p>
+            <input type="text" id="user-input" maxlength="10" disabled>
+            <button id="check-button" onclick="checkSequence()" disabled>Check</button>
+        </div>
+        <div id="result-screen" class="hidden">
+            <h2 id="result-message"></h2>
+            <button onclick="startGame()">Novo jogo</button>
+            <button onclick="exitGame()">Sair</button>
+        </div>
+    </div>
+
+    <div id="start-screen">
+        <h1>LETRIX</h1>
+        <button onclick="startGame()">Jogar</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #6495ED, #fff, #8A2BE2); /* Cores de fundo em degradê */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#loading-screen {
+  display: none;
+  padding: 20px;
+}
+
+#loading-bar {
+  width: 0;
+  height: 20px;
+  background: linear-gradient(to right, #1e90ff, #8A2BE2); /* Cores de fundo em degradê */
+  transition: width 0.5s;
+}
+
+#loading-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#loading-timer {
+  font-size: 18px;
+}
+
+#game-screen,
+#result-screen {
+  display: none;
+}
+
+#sequence-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#user-input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #fff; /* Borda branca */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+#check-button {
+  padding: 5px 10px;
+  background: linear-gradient(to bottom, #1e90ff, #8A2BE2); /* Cores de fundo em degradê */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer;
+}
+
+#check-button:hover {
+  background: linear-gradient(to bottom, #1565c0, #8A2BE2); /* Cores de fundo em degradê */
+}
+
+#timer-container {
+  margin-top: 20px;
+}
+
+#game-timer {
+  font-size: 24px;
+  color: #1e90ff;
+}
+
+#result-screen button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #1e90ff, #8A2BE2); /* Cores de fundo em degradê */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+#result-screen button:hover {
+  background: linear-gradient(to bottom, #1565c0, #8A2BE2); /* Cores de fundo em degradê */
+}
+
+.hidden {
+  display: none;
+}
+
+#start-screen {
+  text-align: center;
+}
+
+#start-screen button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #1e90ff, #8A2BE2); /* Cores de fundo em degradê */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+#start-screen button:hover {
+  background: linear-gradient(to bottom, #1565c0, #8A2BE2); /* Cores de fundo em degradê */
+}
+
+#score {
+  background: linear-gradient(to right, #1e90ff, #8A2BE2); /* Cores de fundo em degradê */
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px; /* Bordas arredondadas */
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+#game-container h1 {
+  font-size: 36px;
+  color: #0b0b0b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+h1{
+  color: #0e0d0d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+}
